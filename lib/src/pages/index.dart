@@ -116,16 +116,16 @@ class IndexState extends State<IndexPage> {
                                 )),
                             Padding(
                               padding: EdgeInsets.fromLTRB(0, 5, 0, 5),
-                                                          child: Text('Meeting ID: ${jobs[index].meetID}',
+                              child: Text('Meeting ID: ${jobs[index].meetID}',
                                   style: GoogleFonts.montserrat(
                                     // color: Colors.black,
                                     fontSize: 13,
                                     fontWeight: FontWeight.w500,
                                   )),
                             ),
-                             Padding(
+                            Padding(
                               padding: EdgeInsets.fromLTRB(0, 0, 0, 5),
-                                                          child: Text('Password: abcdef',
+                              child: Text('Password: abcdef',
                                   style: GoogleFonts.montserrat(
                                     // color: Colors.black,
                                     fontSize: 13,
@@ -141,7 +141,7 @@ class IndexState extends State<IndexPage> {
           ),
           Expanded(
             flex: 1,
-            // child: SingleChildScrollView(
+            child: SingleChildScrollView(
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 height: 400,
@@ -235,7 +235,7 @@ class IndexState extends State<IndexPage> {
                   ],
                 ),
               ),
-           // ),
+            ),
           ),
         ],
       ),
